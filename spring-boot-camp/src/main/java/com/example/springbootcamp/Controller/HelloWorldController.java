@@ -18,4 +18,10 @@ public class HelloWorldController {
 	public String getHelloMessage( ) {
 		return "Hello World from Spring Boot Camp.";
 	}
+	
+	@GetMapping("/test1")
+	public String getHelloTest1Message( ) {
+		return "Hello World from Spring Boot Camp. (test1)";
+	}
+
 }
